@@ -1,0 +1,36 @@
+:root {
+    --bg: #1D1E26;
+    --bgSoft: #F2E5D5;
+    --textHeading: #A65353;
+    --textSub: #D99B84;
+    --textFacts: #4A8C8C;
+    --white: #F5F5F5;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--textSub);
+}
+
+a {
+    color: var(--textHeading);
+    text-decoration: none;
+}
+
+.container {
+    width: 1536px;
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
