@@ -1,0 +1,13 @@
+.container {
+    min-width: 100px;
+    padding: 10px;
+    text-align: center;
+    position: relative; /* Needed for absolute positioning of pseudo-elements */
+}
+
+.active {
+    color: var(--textSub);
+    border-bottom: 2px solid ;
+}
+
+

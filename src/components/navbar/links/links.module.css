@@ -4,3 +4,44 @@
     justify-content: space-between;
     gap: 20px;
 }
+
+.button {
+    padding: 10px 20px;
+    border-radius: 15px;
+    border-color: var(--bgSoft);
+    background-color: var(--bgSoft);
+    color: var(--bg);
+    font-weight: bolder;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.menuButton,.mobileLinks {
+    display: none;
+}
+
+@media (max-width: 850px) {
+    .links {
+        display: none;
+    }
+
+    .menuButton {
+        display: block;
+        font-size: 30px;
+        cursor: pointer;
+    }
+
+    .mobileLinks {
+        position: absolute;
+        top: 100px;
+        right: 0;
+        width: 50%;
+        height:calc(100vh - 100px);
+        background-color: red;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+}
